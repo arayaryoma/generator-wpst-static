@@ -46,7 +46,9 @@
     "prepublish": "nsp check",
     "pretest": "eslint .",
     "precommit": "lint-staged",
-    "test": "jest"
+    "test": "jest",
+    "bump-patch": "npm version patch -m \":tada: Bump patch version\"",
+    "bump-minor": "npm version minor -m \":tada: Bump minor version\""
   },
   "lint-staged": {
     "*.js": [
