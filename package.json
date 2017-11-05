@@ -1,6 +1,6 @@
 {
   "name": "generator-wpst-static",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Geenerator for Static Websites with Webpack, Pug, Stylus, and TypeScript",
   "homepage": "",
   "author": {
