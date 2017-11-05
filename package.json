@@ -1,7 +1,7 @@
 {
-  "name": "generator-wps-static",
+  "name": "generator-wpst-static",
   "version": "0.0.0",
-  "description": "Geenerator for Static Websites with Webpack, Pug and Stylus\"",
+  "description": "Geenerator for Static Websites with Webpack, Pug, Stylus, and TypeScript",
   "homepage": "",
   "author": {
     "name": "Allajah",
@@ -16,6 +16,7 @@
     "Webpack",
     "Pug",
     "Stylus",
+    "TypeScript",
     "Static Site",
     "yeoman-generator"
   ],
