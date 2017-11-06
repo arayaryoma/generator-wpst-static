@@ -82,6 +82,6 @@
       "prettier"
     ]
   },
-  "repository": "Allajah/generator-wps-static",
+  "repository": "Allajah/generator-wpst-static",
   "license": "MIT"
 }
