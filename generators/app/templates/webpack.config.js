@@ -41,6 +41,10 @@ function config(lang) {
           ]
         },
         {
+          test: /\.pug$/,
+          use: 'pug-loader'
+        },
+        {
           test: /\.(styl)$/,
           use: ExtractTextPlugin.extract({
             fallback: 'style-loader',
