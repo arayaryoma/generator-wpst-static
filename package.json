@@ -1,16 +1,15 @@
 {
   "name": "generator-wpst-static",
-  "version": "0.0.3",
-  "description": "Geenerator for Static Websites with Webpack, Pug, Stylus, and TypeScript",
+  "version": "0.0.4",
+  "description":
+    "Geenerator for Static Websites with Webpack, Pug, Stylus, and TypeScript",
   "homepage": "",
   "author": {
     "name": "Allajah",
     "email": "r1o.ryoma.abe@gmail.com",
     "url": ""
   },
-  "files": [
-    "generators"
-  ],
+  "files": ["generators"],
   "main": "generators/index.js",
   "keywords": [
     "Webpack",
@@ -51,20 +50,11 @@
     "bump-minor": "npm version minor -m \":tada: Bump minor version\""
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"]
   },
   "eslintConfig": {
-    "extends": [
-      "xo",
-      "prettier"
-    ],
+    "extends": ["xo", "prettier"],
     "env": {
       "jest": true,
       "node": true
@@ -78,9 +68,7 @@
         }
       ]
     },
-    "plugins": [
-      "prettier"
-    ]
+    "plugins": ["prettier"]
   },
   "repository": "Allajah/generator-wpst-static",
   "license": "MIT"
